@@ -2,7 +2,7 @@
 
 ## Visão Geral do Projeto
 
-Este projeto consiste no desenvolvimento do frontend para o site da **LORAIS Soluções Elétricas Prediais**, uma empresa especializada em serviços elétricos prediais e residenciais, com foco em segurança, economia e otimização de instalações e manutenções. O principal objetivo do site é estabelecer uma presença digital estratégica para atrair novos clientes, aumentar contratos recorrentes e consolidar a autoridade da empresa no mercado, especialmente no segmento de condomínios [1].
+Este projeto consiste no desenvolvimento do frontend para o site da **LORAIS Soluções Elétricas Prediais**, uma empresa especializada em serviços elétricos prediais e residenciais, com foco em segurança, economia e otimização de instalações e manutenções. O principal objetivo do site é estabelecer uma presença digital estratégica para atrair novos clientes, aumentar contratos recorrentes e consolidar a autoridade da empresa no mercado, especialmente no segmento de condomínios.
 
 ### Missão
 
@@ -81,7 +81,7 @@ Para configurar e rodar o projeto em ambiente de desenvolvimento, siga os passos
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone https://github.com/PI-FatecZL/Lorais
     cd LORAIS
     ```
 2.  **Instale as dependências:**
