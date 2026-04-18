@@ -1,11 +1,14 @@
 import './styles/App.css';
-import AppRouters from "./routes/AppRouters.jsx"
+import AppRouters from "./routes/AppRouters.jsx";
+import Navbar from './components/Navbar.jsx';
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
-
   return (
-    <AppRouters />
-  )
+    <BrowserRouter>
+      <AppRouters /> 
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
