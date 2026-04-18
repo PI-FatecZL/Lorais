@@ -1,15 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
+// 1. Primeiro, importe todas as suas páginas
 import Home from "../pages/Home.jsx"
-import Servicos from "../pages/Servicos.jsx"
+
 
 function AppRouters() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/sobre" element={<Home />} />
-      <Route path="/servicos" element={<Home />} />
-      <Route path="/contatos" element={<Home />} />
+      <Route path="/" element={<Home />} />        
+      <Route path="/home" element={<Home />} />     
     </Routes>
   )
 }
