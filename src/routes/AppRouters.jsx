@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Home from "../pages/Home.jsx"
+import Servicos from "../pages/Servicos.jsx"
 
 function AppRouters() {
   return (
