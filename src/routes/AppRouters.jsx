@@ -4,11 +4,12 @@ import Home from "../pages/Home.jsx"
 
 function AppRouters() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/sobre" element={<Home />} />
+      <Route path="/servicos" element={<Home />} />
+      <Route path="/contatos" element={<Home />} />
+    </Routes>
   )
 }
 
