@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom"
 // 1. Primeiro, importe todas as suas páginas
 import Home from "../pages/Home.jsx"
 
+//Rotas das páginas
 
 function AppRouters() {
   return (
