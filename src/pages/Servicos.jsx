@@ -3,10 +3,12 @@ import Hero from "../components/Hero";
 import CardService from "../components/CardService";
 import servicos from "../data/servicos.json";
 import BackgroundHero2 from "../assets/images/servicos/hero.png";
+import Navbar from "../components/Navbar";
 
 function Servicos() {
   return (
     <div className="servicos">
+       <Navbar />
       <Hero imagem={BackgroundHero2} titulo="Nosso Serviços" />
 
       <div className="container-servicos">

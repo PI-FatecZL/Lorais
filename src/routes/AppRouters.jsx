@@ -7,14 +7,14 @@ import ServicoDetails from "../pages/ServicoDetails.jsx"
 
 function AppRouters() {
   return (
-    <BrowserRouter>
+  
       <Routes>
         <Route path="/" element={<Home />} />
          <Route path="/home" element={<Home />} />  
         <Route path="/servicos" element={<Servicos />} />
         <Route path="/servicos/:id" element={<ServicoDetails />} />
       </Routes>
-    </BrowserRouter>
+  
   )
 }
 

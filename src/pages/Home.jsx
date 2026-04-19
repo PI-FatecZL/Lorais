@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar.jsx"
 import Hero from '../components/Hero'
-import BackgroundHero2 from '../assets/images/servicos/hero.png';
+import BackgroundHero2 from '../assets/images/home/hero_home.png';
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
         <div className="servicos">
           <Hero 
             imagem={BackgroundHero2} 
-            titulo="Nossos Serviços" 
+            titulo="Segurança e economia elétrica para seu condomínio" 
           />
         </div>
     </div>
