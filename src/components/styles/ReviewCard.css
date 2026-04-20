@@ -1,0 +1,65 @@
+/* AVALIAÇÕES */
+
+.avaliacoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card-avaliacao {
+    width: 403.35px;
+    height: auto;
+    min-height: 169px;
+    background-color: #F1F4FB;
+    border-radius: 20px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.foto-avaliacao {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.foto-avaliacao img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.infos-avaliacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.nome-cliente-avaliacao {
+    font-weight: 800;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
+
+.estrelas-avaliacao {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    height: 18px; /* Depending on the SVG, this keeps it small and neat */
+}
+
+.avaliacao {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #222;
+    margin: 0;
+}
