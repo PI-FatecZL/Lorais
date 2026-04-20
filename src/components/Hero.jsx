@@ -8,7 +8,7 @@ function Hero ({ imagem, titulo, subtitulo }) {
     return (
         <div className="container-hero container-fluid text-white py-5" style={containerStyle}>
             <div className="py-5">
-                <div className="titulo">
+                <div className="title">
                     <h1 className="title-hero">{titulo}</h1>
                     <p className="subtitle-hero">{subtitulo}</p>
                 </div>

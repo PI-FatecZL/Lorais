@@ -2,7 +2,7 @@ import "./styles/Services.css";
 import Hero from "../components/Hero";
 import CardService from "../components/CardService";
 import servicos from "../data/servicos.json";
-import BackgroundHero2 from "../assets/images/servicos/hero.png";
+import BackgroundHero2 from "../assets/images/services/hero.png";
 import Navbar from "../components/Navbar";
 
 function Services() {

@@ -1,0 +1,17 @@
+.title {
+    position: absolute;
+    
+    bottom: 130px; 
+    left: 60px;   
+    display: flex;
+    flex-direction: column;
+    max-width: 610px; 
+}
+.title-hero {
+    font-family: "Poppins", sans-serif; 
+    font-weight: 500;
+    color: white;
+    font-size: 3.0rem; 
+    line-height: 1.0; 
+    margin-bottom: 10px;
+}
