@@ -1,0 +1,17 @@
+.footer-lorais {
+    background-color: #1B3664; 
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.footer-info p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    margin: 0;
+}
