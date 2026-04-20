@@ -1,17 +1,17 @@
-import "./styles/Servicos.css";
+import "./styles/Services.css";
 import Hero from "../components/Hero";
 import CardService from "../components/CardService";
 import servicos from "../data/servicos.json";
 import BackgroundHero2 from "../assets/images/servicos/hero.png";
 import Navbar from "../components/Navbar";
 
-function Servicos() {
+function Services() {
   return (
-    <div className="servicos">
+    <div className="services">
        <Navbar />
       <Hero imagem={BackgroundHero2} titulo="Nosso Serviços" />
 
-      <div className="container-servicos">
+      <div className="container-services">
         <div className="container-cards">
           {servicos.map((servico) => (
             <CardService data={servico} />
@@ -22,4 +22,4 @@ function Servicos() {
   );
 }
 
-export default Servicos;
+export default Services;
