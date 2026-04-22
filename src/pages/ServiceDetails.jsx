@@ -5,6 +5,7 @@ import './styles/ServiceDetails.css'
 
 import ReviewCard from "../components/ReviewCard";
 import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 import ServiceSpecCard from "../components/ServiceSpecCard";
 import servicos from "../data/servicos.json";
 
@@ -140,7 +141,7 @@ function ServiceDetails() {
 
         </div> 
       </div>
-           
+      <Footer /> 
     </div>
   );
 }

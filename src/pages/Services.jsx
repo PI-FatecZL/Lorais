@@ -4,6 +4,7 @@ import CardService from "../components/CardService";
 import servicos from "../data/servicos.json";
 import BackgroundHero2 from "../assets/images/services/hero.png";
 import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 function Services() {
   return (
@@ -18,6 +19,7 @@ function Services() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
