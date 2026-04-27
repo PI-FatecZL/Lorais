@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom"
 import Home from "../pages/Home.jsx"
 import Services from "../pages/Services.jsx"
 import ServiceDetails from "../pages/ServiceDetails.jsx"
+import About from "../pages/About.jsx"
 
 function AppRouters() {
   return (
@@ -13,6 +14,7 @@ function AppRouters() {
         <Route path="/home" element={<Home />} />  
         <Route path="/servicos" element={<Services />} />
         <Route path="/servicos/:id" element={<ServiceDetails />} />
+        <Route path = "/sobre" element={<About />} />
       </Routes>
   
   )
