@@ -10,7 +10,9 @@ function Container({ image, title, subtitle, buttonText, buttonLink }) {
                     <h2>{title}</h2>
                         <div className="yellow-line-container"></div>
                     <p>{subtitle}</p>
-                    <a href={buttonLink}>{buttonText}</a>
+              {buttonText && (
+                        <a href={buttonLink}>{buttonText}</a>
+                    )}
                 </div>
             </div>
         </div>

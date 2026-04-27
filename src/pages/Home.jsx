@@ -35,7 +35,7 @@ function Home() {
   title="SOBRE A LORAIS"
   subtitle="Oferecemos uma ampla gama de serviços elétricos para condomínios, incluindo manutenção preventiva, instalação de sistemas de segurança, iluminação eficiente e muito mais. Nossa equipe de profissionais altamente qualificados está pronta para garantir a segurança e o conforto dos moradores do seu condomínio."
   buttonText="Saiba Mais"
-  buttonLink="/servicos"
+  buttonLink="/sobre"
 />
 
 <ContainerBenefits

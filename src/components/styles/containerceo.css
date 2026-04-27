@@ -1,0 +1,39 @@
+.container-section-blue {
+    background-color: #1F3F7A; 
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.text-side h2 {
+    color: #ffffff; 
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.image-center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-center img {
+    width: 200px;       
+    height: 200px;    
+    border-radius: 50%; 
+    object-fit: cover;  
+    box-shadow: 0 0 30px rgba(8, 38, 92, 0.979); 
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
