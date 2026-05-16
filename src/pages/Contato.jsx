@@ -137,7 +137,7 @@ function Contato() {
                         <p className="social-subtitle">Siga-nos nas redes sociais!</p>
                         
                         <div className="social-links">
-                            <a href="#" className="social-icon">
+                            <a href="https://wa.me/5511960631516" className="social-icon">
                                 <img src={iconWhatsapp} alt="" />
                             </a>
                             <a href="#" className="social-icon">
