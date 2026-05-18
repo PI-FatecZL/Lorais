@@ -6,7 +6,6 @@ import iconTelefone from "../assets/icons/icon-telefone.svg";
 import iconEmail from "../assets/icons/icon-email.svg";
 import iconWhatsapp from "../assets/icons/icon-whatsapp.svg";
 import iconInstagram from "../assets/icons/icon-instagram.svg";
-import iconLinkedin from "../assets/icons/icon-linkedin.svg";
 import ScrollReveal from '../components/ScrowReveal';
 function Contato() {
 
@@ -143,9 +142,6 @@ function Contato() {
                             <a href="#" className="social-icon">
                                 <img src={iconInstagram} alt="" />
                             </a>
-                            <a href="#" className="social-icon">
-                                <img src={iconLinkedin} alt="" />
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +156,7 @@ function Contato() {
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7316.575297340995!2d-46.4773694253167!3d-23.52215441870102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1777495078189!5m2!1spt-BR!2sbr" 
                         width="100%" 
                         height="450" 
-                        style={{ border: 0, borderRadius: '15px' }} 
+                        style={{ border: 0 }} 
                         allowFullScreen="" 
                         loading="lazy" 
                         referrerPolicy="no-referrer-when-downgrade"
